@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "607390587600",
+    "project_id": "food-delivery-85489",
+    "storage_bucket": "food-delivery-85489.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607390587600:android:20479fa080a0994e3c1cd5",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery_app_scholars_of_mars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607390587600-2g871hv65q0qc92t4c2hq2n718iilbr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGX6kN7nXOEZl7Dhp_W3bxIFWtfX4pUI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607390587600-2g871hv65q0qc92t4c2hq2n718iilbr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

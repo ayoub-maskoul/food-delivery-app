@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/order"
+        android:icon="@drawable/ic_order"
+        android:title="order" />
+
+    <item
+        android:id="@+id/offer"
+        android:icon="@drawable/ic_offer"
+        android:title="offer and promo" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="History" />
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite_white"
+        android:title="Favorite" />
+
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/ic_arrow"
+        android:title="Sign-out" />
+</menu>

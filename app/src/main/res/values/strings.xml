@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="get_started">Get started</string>
+    <string name="name">Marvis Ighedosa</string>
+    <string name="email">Dosamarvis@gmail.com</string>
+    <string name="phone">+234 9011039271</string>
+    <string name="about">No 15 uti street off ovie palace road effurun delta state</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

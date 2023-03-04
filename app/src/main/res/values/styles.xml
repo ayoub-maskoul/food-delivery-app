@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Myfontmedium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="Myfontlight">
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+</resources>

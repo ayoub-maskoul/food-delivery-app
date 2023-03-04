@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CreateAccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:textColor="@color/gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="Email address" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/fields_bg"
+                    android:textColor="@color/gray"
+                    android:layout_height="50dp"
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:textColor="@color/gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="Name" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/fields_bg"
+                    android:textColor="@color/gray"
+                    android:layout_height="50dp"
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:textColor="@color/gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="Number Phone" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/fields_bg"
+                    android:textColor="@color/gray"
+                    android:layout_height="50dp"
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:inputType="number" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/gray"
+                    android:text="Password" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/fields_bg"
+                    android:textColor="@color/gray"
+                    android:layout_height="50dp"
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:inputType="textPassword" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/gray"
+                    android:text="Re-Password" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/fields_bg"
+                    android:textColor="@color/gray"
+                    android:layout_height="50dp"
+                    android:id="@+id/password_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:inputType="textPassword" />
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sign_up_btn"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/get_started_btn_bg"
+                android:backgroundTint="@color/orange"
+                android:textColor="@color/white"
+                android:text="Sign-up"
+                android:textAllCaps="false"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="bottom|center_vertical"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</FrameLayout>
